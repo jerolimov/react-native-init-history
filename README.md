@@ -4,8 +4,11 @@ This project contains a git-history of generated
 So you can compare the initial versions of each version
 (always with `react-native init Tutorial`) to update your own project structure:
 
-* [0.18 ... 0.19.0-rc](https://github.com/jerolimov/react-native-init-history/compare/0.18.0...0.19.0-rc) (latest version)
-* [0.17 ... 0.18](https://github.com/jerolimov/react-native-init-history/compare/0.17.0...0.18.0)
+* for example how to upgrade from
+  [0.12 to master](https://github.com/jerolimov/react-native-init-history/compare/0.12.0...master)
+
+* [0.18 ... 0.19.0-rc](https://github.com/jerolimov/react-native-init-history/compare/0.18.0...0.19.0-rc) (latest release candidate)
+* [0.17 ... 0.18](https://github.com/jerolimov/react-native-init-history/compare/0.17.0...0.18.0) (latest stable version)
 * [0.16 ... 0.17](https://github.com/jerolimov/react-native-init-history/compare/0.16.0...0.17.0)
 * [0.15 ... 0.16](https://github.com/jerolimov/react-native-init-history/compare/0.15.0...0.16.0)
 * [0.14 ... 0.15](https://github.com/jerolimov/react-native-init-history/compare/0.14.0...0.15.0)
