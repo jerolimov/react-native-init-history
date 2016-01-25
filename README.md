@@ -1,11 +1,12 @@
-This project contains a git-history of generated
-[react-native](http://facebook.github.io/react-native/) projects.
+This project contains a full history of bare [react-native](http://facebook.github.io/react-native/) projects.
 
-So you can compare the initial versions of each version
-(always with `react-native init Tutorial`) to update your own project structure:
+So you can compare these generated versions via git/github compare. Each version is generated with `react-native init Tutorial`.
 
-* for example how to upgrade from
-  [0.12 to master](https://github.com/jerolimov/react-native-init-history/compare/0.12.0...master)
+Before upgrade manually you could/should try `react-native upgrade` in your project.
+
+For example [compare 0.12 with the latest master](https://github.com/jerolimov/react-native-init-history/compare/0.12.0...master).
+
+#### History
 
 * [0.18 ... 0.19.0-rc](https://github.com/jerolimov/react-native-init-history/compare/0.18.0...0.19.0-rc) (latest release candidate)
 * [0.17 ... 0.18](https://github.com/jerolimov/react-native-init-history/compare/0.17.0...0.18.0) (latest stable version)
