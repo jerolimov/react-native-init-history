@@ -6,10 +6,11 @@ Each version is generated with `react-native init Tutorial`.
 
 Before upgrade manually you could/should try `react-native upgrade` in your project.
 
-For example [compare 0.18 with the latest master](https://github.com/jerolimov/react-native-init-history/compare/0.18.0...master).
+For example [compare 0.22 with the latest master](https://github.com/jerolimov/react-native-init-history/compare/0.22.0...master).
 
 #### History
 
+* [0.26 ... 0.27](https://github.com/jerolimov/react-native-init-history/compare/0.26.0...0.27.2)
 * [0.25 ... 0.26](https://github.com/jerolimov/react-native-init-history/compare/0.25.1...0.26.0)
 * [0.24 ... 0.25](https://github.com/jerolimov/react-native-init-history/compare/0.24.1...0.25.1)
 * [0.23 ... 0.24](https://github.com/jerolimov/react-native-init-history/compare/0.23.0...0.24.1)
