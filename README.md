@@ -10,6 +10,7 @@ For example [compare 0.42 with the latest master](https://github.com/jerolimov/r
 
 #### History
 
+* [0.49 ... 0.50](https://github.com/jerolimov/react-native-init-history/compare/0.49.3...0.50.3)
 * [0.48 ... 0.49](https://github.com/jerolimov/react-native-init-history/compare/0.48.4...0.49.3)
 * [0.47 ... 0.48](https://github.com/jerolimov/react-native-init-history/compare/0.47.2...0.48.4)
 * [0.46 ... 0.47](https://github.com/jerolimov/react-native-init-history/compare/0.46.4...0.47.2)
