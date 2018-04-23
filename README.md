@@ -1,12 +1,13 @@
+[![Build Status](https://travis-ci.org/jerolimov/react-native-init-history.svg?branch=master)](https://travis-ci.org/jerolimov/react-native-init-history)
+
 This project contains a full history of bare [react-native](http://facebook.github.io/react-native/) projects.
 
-So you can compare these generated versions with `git diff` or github compare and apply changes to your project.
+It can help you to compare different react-native versions with `git diff` or github compare.
+Before upgrade manually you could also try `react-native upgrade` in your project.
 
 Each version is generated with `react-native init Tutorial`.
 
-Before upgrade manually you could/should try `react-native upgrade` in your project.
-
-For example [compare 0.42 with the latest master](https://github.com/jerolimov/react-native-init-history/compare/0.42.0...master).
+For example [compare version 0.52 with the latest version](https://github.com/jerolimov/react-native-init-history/compare/0.52.0...master).
 
 #### History
 
