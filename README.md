@@ -1,4 +1,4 @@
-# react-native-init-history to compare different react-native versions
+# Bare project history to compare different react-native versions
 
 [![Build Status](https://travis-ci.org/jerolimov/react-native-init-history.svg?branch=master)](https://travis-ci.org/jerolimov/react-native-init-history)
 
