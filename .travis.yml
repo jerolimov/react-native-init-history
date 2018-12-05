@@ -33,7 +33,7 @@ matrix:
         - cd -
 
     - language: objective-c
-      osx_image: xcode9.3
+      osx_image: xcode10
       xcode_workspace: ios/Tutorial.xcworkspace
       xcode_scheme: Tutorial
       podfile: ios/Podfile
