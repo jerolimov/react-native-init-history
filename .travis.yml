@@ -21,8 +21,8 @@ matrix:
       jdk: oraclejdk8
       android:
         components:
-          - build-tools-27.0.3
-          - android-27
+          - build-tools-28.0.2
+          - android-28
       install:
         - nvm install node
         - npm install
