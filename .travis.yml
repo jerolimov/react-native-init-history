@@ -27,15 +27,21 @@ matrix:
         - nvm install node
         - npm install
       script:
+        - yes | keytool -genkey -v -keyalg RSA -storetype pkcs12 -keystore android/app/debug.keystore -storepass android -alias androiddebugkey -keypass android
         - cd android
         - ./gradlew --info --stacktrace assembleRelease
         - cd -
 
     - language: objective-c
-      osx_image: xcode9.3
-      xcode_project: ios/Tutorial.xcodeproj
+      osx_image: xcode10
+      xcode_workspace: ios/Tutorial.xcworkspace
       xcode_scheme: Tutorial
+      podfile: ios/Podfile
       install:
         - npm install
+        - gem update cocoapods xcodeproj
       script:
-        - xcodebuild clean build -sdk iphonesimulator -project "$TRAVIS_XCODE_PROJECT" -scheme "$TRAVIS_XCODE_SCHEME"
+        - cd ios
+        - pod install
+        - cd ..
+        - xcodebuild clean build -sdk iphonesimulator -workspace "$TRAVIS_XCODE_WORKSPACE" -scheme "$TRAVIS_XCODE_SCHEME"
