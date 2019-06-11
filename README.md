@@ -20,7 +20,9 @@ For example [compare version 0.52 with the latest version](https://github.com/je
 * [0.55 ... 0.56](https://github.com/jerolimov/react-native-init-history/compare/0.55.3...0.56.0)
 * [0.54 ... 0.55](https://github.com/jerolimov/react-native-init-history/compare/0.54.0...0.55.3)
 
-<details><summary>More...</summary>
+<details>
+<summary>More...</summary>
+
 * [0.53 ... 0.54](https://github.com/jerolimov/react-native-init-history/compare/0.53.0...0.54.0)
 * [0.52 ... 0.53](https://github.com/jerolimov/react-native-init-history/compare/0.52.0...0.53.0)
 * [0.51 ... 0.52](https://github.com/jerolimov/react-native-init-history/compare/0.51.0...0.52.0)
@@ -74,4 +76,5 @@ For example [compare version 0.52 with the latest version](https://github.com/je
 * [0.3 ... 0.4](https://github.com/jerolimov/react-native-init-history/compare/0.3.0...0.4.0)
 * [0.2 ... 0.3](https://github.com/jerolimov/react-native-init-history/compare/0.2.0...0.3.0)
 * [0.1 ... 0.2](https://github.com/jerolimov/react-native-init-history/compare/0.1.0...0.2.0)
+
 </details>
