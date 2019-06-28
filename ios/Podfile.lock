@@ -11,77 +11,77 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - React (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-    - React-DevSupport (= 0.60.0-rc.1)
-    - React-RCTActionSheet (= 0.60.0-rc.1)
-    - React-RCTAnimation (= 0.60.0-rc.1)
-    - React-RCTBlob (= 0.60.0-rc.1)
-    - React-RCTImage (= 0.60.0-rc.1)
-    - React-RCTLinking (= 0.60.0-rc.1)
-    - React-RCTNetwork (= 0.60.0-rc.1)
-    - React-RCTSettings (= 0.60.0-rc.1)
-    - React-RCTText (= 0.60.0-rc.1)
-    - React-RCTVibration (= 0.60.0-rc.1)
-    - React-RCTWebSocket (= 0.60.0-rc.1)
-  - React-Core (0.60.0-rc.1):
+  - React (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+    - React-DevSupport (= 0.60.0-rc.3)
+    - React-RCTActionSheet (= 0.60.0-rc.3)
+    - React-RCTAnimation (= 0.60.0-rc.3)
+    - React-RCTBlob (= 0.60.0-rc.3)
+    - React-RCTImage (= 0.60.0-rc.3)
+    - React-RCTLinking (= 0.60.0-rc.3)
+    - React-RCTNetwork (= 0.60.0-rc.3)
+    - React-RCTSettings (= 0.60.0-rc.3)
+    - React-RCTText (= 0.60.0-rc.3)
+    - React-RCTVibration (= 0.60.0-rc.3)
+    - React-RCTWebSocket (= 0.60.0-rc.3)
+  - React-Core (0.60.0-rc.3):
     - Folly (= 2018.10.22.00)
-    - React-cxxreact (= 0.60.0-rc.1)
-    - React-jsiexecutor (= 0.60.0-rc.1)
-    - yoga (= 0.60.0-rc.1.React)
-  - React-cxxreact (0.60.0-rc.1):
+    - React-cxxreact (= 0.60.0-rc.3)
+    - React-jsiexecutor (= 0.60.0-rc.3)
+    - yoga (= 0.60.0-rc.3.React)
+  - React-cxxreact (0.60.0-rc.3):
     - boost-for-react-native (= 1.63.0)
     - DoubleConversion
     - Folly (= 2018.10.22.00)
     - glog
-    - React-jsinspector (= 0.60.0-rc.1)
-  - React-DevSupport (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-    - React-RCTWebSocket (= 0.60.0-rc.1)
-  - React-fishhook (0.60.0-rc.1)
-  - React-jsi (0.60.0-rc.1):
+    - React-jsinspector (= 0.60.0-rc.3)
+  - React-DevSupport (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+    - React-RCTWebSocket (= 0.60.0-rc.3)
+  - React-fishhook (0.60.0-rc.3)
+  - React-jsi (0.60.0-rc.3):
     - boost-for-react-native (= 1.63.0)
     - DoubleConversion
     - Folly (= 2018.10.22.00)
     - glog
-    - React-jsi/Default (= 0.60.0-rc.1)
-  - React-jsi/Default (0.60.0-rc.1):
+    - React-jsi/Default (= 0.60.0-rc.3)
+  - React-jsi/Default (0.60.0-rc.3):
     - boost-for-react-native (= 1.63.0)
     - DoubleConversion
     - Folly (= 2018.10.22.00)
     - glog
-  - React-jsiexecutor (0.60.0-rc.1):
+  - React-jsiexecutor (0.60.0-rc.3):
     - DoubleConversion
     - Folly (= 2018.10.22.00)
     - glog
-    - React-cxxreact (= 0.60.0-rc.1)
-    - React-jsi (= 0.60.0-rc.1)
-  - React-jsinspector (0.60.0-rc.1)
-  - React-RCTActionSheet (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTAnimation (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTBlob (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-    - React-RCTNetwork (= 0.60.0-rc.1)
-    - React-RCTWebSocket (= 0.60.0-rc.1)
-  - React-RCTImage (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-    - React-RCTNetwork (= 0.60.0-rc.1)
-  - React-RCTLinking (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTNetwork (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTSettings (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTText (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTVibration (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-  - React-RCTWebSocket (0.60.0-rc.1):
-    - React-Core (= 0.60.0-rc.1)
-    - React-fishhook (= 0.60.0-rc.1)
-  - yoga (0.60.0-rc.1.React)
+    - React-cxxreact (= 0.60.0-rc.3)
+    - React-jsi (= 0.60.0-rc.3)
+  - React-jsinspector (0.60.0-rc.3)
+  - React-RCTActionSheet (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTAnimation (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTBlob (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+    - React-RCTNetwork (= 0.60.0-rc.3)
+    - React-RCTWebSocket (= 0.60.0-rc.3)
+  - React-RCTImage (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+    - React-RCTNetwork (= 0.60.0-rc.3)
+  - React-RCTLinking (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTNetwork (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTSettings (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTText (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTVibration (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+  - React-RCTWebSocket (0.60.0-rc.3):
+    - React-Core (= 0.60.0-rc.3)
+    - React-fishhook (= 0.60.0-rc.3)
+  - yoga (0.60.0-rc.3.React)
 
 DEPENDENCIES:
   - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
@@ -162,26 +162,26 @@ SPEC CHECKSUMS:
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  React: 771da41f95c2938a4268d0064dae874efca76d47
-  React-Core: c6be9e64310cda9bded86059005a2be9cfcd83d1
-  React-cxxreact: 17ab2493f0071b3587a2fa8874d374ab6df17d91
-  React-DevSupport: e47afce62e4d32d81df53ec593bf490101954c63
-  React-fishhook: 689293b246ac0d2aa2aae7bac08719d69ff4b6db
-  React-jsi: 6d2a594ad2281e6646fa3ac665b95554d0e3c0b1
-  React-jsiexecutor: 418cedeadc8ae5096574e6b199a6b025734397d5
-  React-jsinspector: 3d54eec4e664fad1fe6ecf3fb2554b53d379fb9f
-  React-RCTActionSheet: 37f59304f286148e9bf0fdd8683e6d959998bd58
-  React-RCTAnimation: 43948fbaed6ac32285130d0bf6543d685d271d01
-  React-RCTBlob: f7614a4b3631c8c0048516972cb48ab21e3229f7
-  React-RCTImage: 0af567e4ecc3fe76469ccd93e25f8403aa953917
-  React-RCTLinking: c26bd5665a0226654e7d33f674bb0083a5f8822b
-  React-RCTNetwork: 467aab0787fb8d940be0767de88f18c6d3fbda24
-  React-RCTSettings: 79d28ecf44cf144432c1001bbca2e93d4d7a4e7f
-  React-RCTText: 1b3e71979b7de522c797d5c437107897f0f8aa48
-  React-RCTVibration: d3a10d7c6c55df9021432a0a33507331757a302b
-  React-RCTWebSocket: ea37aa224c6c3dab458b142c0d17c42b3f80e989
-  yoga: 6cc9ed1b0509efe6b6519dc5f44af3c7b9dfb7a5
+  React: a3ad6f532313d23e72f5c7891c7f3da7ea2c82a6
+  React-Core: 9c24ac58b7d066b232cb3da232a1cf15654230d4
+  React-cxxreact: 5e086dc2229169c1112ea139c65f7b19f93cf4c3
+  React-DevSupport: b05ea80e4ea8c01ac6ba514d570037f3ae38fde7
+  React-fishhook: 336dc8187d70d89e3bac42f1b22d3dd6864117d9
+  React-jsi: a484f23b7b2bdcb160616921743553fad0b9ca08
+  React-jsiexecutor: a5faab71295cbff5ecbe062c42868584e9d91d75
+  React-jsinspector: 08bd24ac1b577afc515dc8418748e1c5c092fed1
+  React-RCTActionSheet: 0ab6f27c285fb9f9a079474c291d5f1ed96ba299
+  React-RCTAnimation: 2cbb0682a315ed2cd74dbbad4c2056e7cc8199ed
+  React-RCTBlob: ab2ea24932e9e79da8c43307b932aaf3018123cd
+  React-RCTImage: 48c4622804b0f9d06a21d36692ba36384bfbe80d
+  React-RCTLinking: b733688fede2b94058ce61a68c0c28c5aa7d435f
+  React-RCTNetwork: 4bdb71ee088860b49d09e79eec65473eddb1623c
+  React-RCTSettings: 0f2de46f1eb9cfb3c5c823acb977d96698250546
+  React-RCTText: 01336645c594ee588f1062669db0cd03b90210c7
+  React-RCTVibration: 9f1e51e8bda236fd1f3731dfcd2d9a56a2f1d2f0
+  React-RCTWebSocket: 60bf0bda42593572fa713ec7331e6ddab1ef5c3e
+  yoga: a5405b41017fb27727de7a5ceab8bf55f98bbe2f
 
-PODFILE CHECKSUM: 88b48aafcbfc170ba694c991dbd9f91880f7ac8d
+PODFILE CHECKSUM: f398a2266c7af98e63d0a0c7fe69efcce4ab8266
 
 COCOAPODS: 1.6.2
