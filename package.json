@@ -18,7 +18,7 @@
     "babel-jest": "^24.8.0",
     "eslint": "^6.0.1",
     "jest": "^24.8.0",
-    "jest-haste-map": "^24.8.1",
+    "jest-haste-map": "^24.7.1",
     "metro-react-native-babel-preset": "^0.54.1",
     "react-test-renderer": "16.8.6"
   },
