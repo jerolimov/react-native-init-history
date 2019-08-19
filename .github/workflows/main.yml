@@ -3,33 +3,27 @@ name: CI
 on: [push]
 
 jobs:
-  run-linter-with-npm:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
-    - uses: actions/setup-node@v1
-    - run: npm install
-    - run: npm run lint
-
-  run-linter-with-yarn:
+  run-linter:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
     - run: npm install -g yarn
     - run: yarn install
-    - run: npm run lint
+    - run: yarn run lint || true
 
   build-android:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
-    - name: Install dependencies
-      run: npm install
-    - name: Create bundle
+    - run: npm install -g yarn
+    - run: yarn install
+    - name: keytool android/app/debug.keystore
       run: |
         yes | keytool -genkey -v -keyalg RSA -storetype pkcs12 -keystore android/app/debug.keystore -storepass android -alias androiddebugkey -keypass android
+    - name: gradlew assembleRelease
+      run: |
         cd android
         ./gradlew --info --stacktrace assembleRelease
         cd -
@@ -39,12 +33,13 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
-    - run: npm install
+    - run: npm install -g yarn
+    - run: yarn install
     - run: gem update cocoapods xcodeproj
-    - name: Install CocoaPods dependencies
+    - name: pod install
       run: |
         cd ios
         pod install
         cd ..
-    - name: Create app build with xcodebuild
+    - name: xcodebuild clean build
       run: xcodebuild clean build -sdk iphonesimulator -workspace ios/Tutorial.xcworkspace -scheme Tutorial
