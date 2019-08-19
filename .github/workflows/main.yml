@@ -1,0 +1,43 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Test
+      run: ls
+
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Instapp dependencies
+      run: |
+        nvm install node
+        npm install
+    - name: Create bundle
+      run: |
+        yes | keytool -genkey -v -keyalg RSA -storetype pkcs12 -keystore android/app/debug.keystore -storepass android -alias androiddebugkey -keypass android
+        cd android
+        ./gradlew --info --stacktrace assembleRelease
+        cd -
+
+  build-ios:
+    runs-on: macOS-latest    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Instapp dependencies
+      run: |
+        npm install
+        gem update cocoapods xcodeproj
+    - name: Install CocoaPods dependencies
+      run: |
+        cd ios
+        pod install
+        cd ..
+    - name: Create app
+      run: |
+        xcodebuild clean build -sdk iphonesimulator -workspace ios/Tutorial.xcworkspace -scheme Tutorial
