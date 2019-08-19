@@ -7,17 +7,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Test
+    - uses: actions/setup-node@v1
+    - name: Test 1
+      run: ls
+    - name: Install dependencies
+      run: npm install
+    - name: Test 2
       run: ls
 
   build-android:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - name: Instapp dependencies
-      run: |
-        nvm install node
-        npm install
+    - uses: actions/setup-node@v1
+    - name: Install dependencies
+      run: npm install
     - name: Create bundle
       run: |
         yes | keytool -genkey -v -keyalg RSA -storetype pkcs12 -keystore android/app/debug.keystore -storepass android -alias androiddebugkey -keypass android
@@ -29,10 +33,11 @@ jobs:
     runs-on: macOS-latest    
     steps:
     - uses: actions/checkout@v1
-    - name: Instapp dependencies
-      run: |
-        npm install
-        gem update cocoapods xcodeproj
+    - uses: actions/setup-node@v1
+    - name: Install node dependencies
+      run: npm install
+    - name: Install CocoaPods
+      run: gem update cocoapods xcodeproj
     - name: Install CocoaPods dependencies
       run: |
         cd ios
