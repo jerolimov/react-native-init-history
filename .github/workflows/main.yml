@@ -3,17 +3,22 @@ name: CI
 on: [push]
 
 jobs:
-  run-linter:
+  run-linter-with-npm:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
-    - name: Test 1
-      run: ls
-    - name: Install dependencies
-      run: npm install
-    - name: Test 2
-      run: ls
+    - run: npm install
+    - run: npm run lint
+
+  run-linter-with-yarn:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+    - run: npm install -g yarn
+    - run: yarn install
+    - run: npm run lint
 
   build-android:
     runs-on: ubuntu-latest
@@ -34,15 +39,12 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
-    - name: Install node dependencies
-      run: npm install
-    - name: Install CocoaPods
-      run: gem update cocoapods xcodeproj
+    - run: npm install
+    - run: gem update cocoapods xcodeproj
     - name: Install CocoaPods dependencies
       run: |
         cd ios
         pod install
         cd ..
-    - name: Create app
-      run: |
-        xcodebuild clean build -sdk iphonesimulator -workspace ios/Tutorial.xcworkspace -scheme Tutorial
+    - name: Create app build with xcodebuild
+      run: xcodebuild clean build -sdk iphonesimulator -workspace ios/Tutorial.xcworkspace -scheme Tutorial
