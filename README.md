@@ -13,16 +13,16 @@ For example [compare version 0.52 with the latest version](https://github.com/je
 
 #### History
 
-* [0.59 ... 0.60](https://github.com/jerolimov/react-native-init-history/compare/0.59.8...0.60.0)
+* [0.59 ... 0.60](https://github.com/jerolimov/react-native-init-history/compare/0.59.8...0.60.5)
 * [0.58 ... 0.59](https://github.com/jerolimov/react-native-init-history/compare/0.58.3...0.59.8)
 * [0.57 ... 0.58](https://github.com/jerolimov/react-native-init-history/compare/0.57.8...0.58.3)
-* [0.56 ... 0.57](https://github.com/jerolimov/react-native-init-history/compare/0.56.0...0.57.8)
-* [0.55 ... 0.56](https://github.com/jerolimov/react-native-init-history/compare/0.55.3...0.56.0)
-* [0.54 ... 0.55](https://github.com/jerolimov/react-native-init-history/compare/0.54.0...0.55.3)
 
 <details>
 <summary>More...</summary>
 
+* [0.56 ... 0.57](https://github.com/jerolimov/react-native-init-history/compare/0.56.0...0.57.8)
+* [0.55 ... 0.56](https://github.com/jerolimov/react-native-init-history/compare/0.55.3...0.56.0)
+* [0.54 ... 0.55](https://github.com/jerolimov/react-native-init-history/compare/0.54.0...0.55.3)
 * [0.53 ... 0.54](https://github.com/jerolimov/react-native-init-history/compare/0.53.0...0.54.0)
 * [0.52 ... 0.53](https://github.com/jerolimov/react-native-init-history/compare/0.52.0...0.53.0)
 * [0.51 ... 0.52](https://github.com/jerolimov/react-native-init-history/compare/0.51.0...0.52.0)
