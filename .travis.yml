@@ -27,7 +27,6 @@ matrix:
         - nvm install node
         - npm install
       script:
-        - yes | keytool -genkey -v -keyalg RSA -storetype pkcs12 -keystore android/app/debug.keystore -storepass android -alias androiddebugkey -keypass android
         - cd android
         - ./gradlew --info --stacktrace bundleRelease
         - cd -
