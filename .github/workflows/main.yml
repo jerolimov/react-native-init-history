@@ -6,9 +6,8 @@ jobs:
   run-linter:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
-    - run: npm install -g yarn
     - run: yarn install
     - run: yarn lint
     - run: yarn test
@@ -16,9 +15,8 @@ jobs:
   build-android:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
-    - run: npm install -g yarn
     - run: yarn install
     - name: gradlew bundleRelease
       run: |
@@ -29,9 +27,8 @@ jobs:
   build-ios:
     runs-on: macOS-latest    
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - uses: actions/setup-node@v1
-    - run: npm install -g yarn
     - run: yarn install
     - run: gem update cocoapods xcodeproj
     - name: pod install
