@@ -13,6 +13,7 @@ For example [compare version 0.52 with the latest version](https://github.com/je
 
 #### History
 
+* [0.61 ... 0.62](https://github.com/jerolimov/react-native-init-history/compare/0.61.5...0.62.0)
 * [0.60 ... 0.61](https://github.com/jerolimov/react-native-init-history/compare/0.60.5...0.61.5)
 * [0.59 ... 0.60](https://github.com/jerolimov/react-native-init-history/compare/0.59.8...0.60.5)
 * [0.58 ... 0.59](https://github.com/jerolimov/react-native-init-history/compare/0.58.3...0.59.8)
