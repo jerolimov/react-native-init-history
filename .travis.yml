@@ -1,6 +1,9 @@
 sudo: false
 
 cache:
+  yarn: true
+  bundler: true
+  cocoapods: true
   directories:
     - $HOME/.nvm
     - $HOME/.npm
@@ -14,33 +17,41 @@ matrix:
     - language: node_js
       node_js:
         - stable
+      install:
+        - npm install --global yarn@legacy
+        - yarn install
       script:
-        - ls
+        - yarn lint
+        - yarn test
 
     - language: android
-      jdk: oraclejdk8
       android:
         components:
           - build-tools-28.0.3
           - android-28
       install:
         - nvm install node
-        - npm install
+        - npm install --global yarn@legacy
+        - yarn install
       script:
         - cd android
         - ./gradlew --info --stacktrace bundleRelease
         - cd -
 
     - language: objective-c
-      osx_image: xcode10
+      os: osx
+      osx_image: xcode11.3
+      xcode_version: 11.3
       xcode_workspace: ios/Tutorial.xcworkspace
       xcode_scheme: Tutorial
       podfile: ios/Podfile
       install:
-        - npm install
+        - npm install --global yarn@legacy
+        - yarn install
         - gem update cocoapods xcodeproj
-      script:
         - cd ios
         - pod install
-        - cd ..
-        - xcodebuild clean build -sdk iphonesimulator -workspace "$TRAVIS_XCODE_WORKSPACE" -scheme "$TRAVIS_XCODE_SCHEME"
+        - cd -
+      script:
+        - set -o pipefail
+        - xcodebuild clean build -sdk iphonesimulator -workspace "$TRAVIS_XCODE_WORKSPACE" -scheme "$TRAVIS_XCODE_SCHEME" | xcpretty
